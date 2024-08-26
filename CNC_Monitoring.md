@@ -37,7 +37,7 @@ You can choose to take the inputs as function calls to your program, or as event
 
 ## Expected outputs
 
-The program needs to indicate if there is a need for attention.
+The Solution needs to indicate if there is a need for attention.
 
 When there is a need to attend,
 it needs to offer an initial diagnosis,
@@ -45,21 +45,4 @@ to help in alerting the appropriate personnel:
 It needs to convey whether the machine needs attention,
 or if its environment needs attention.
 
-## Code
 
-Create a new archive and initialize it with circleci, as shown in the
-[exercise](https://github.com/venu-shastri/cleancodeforcpp/blob/master/.circleci/config.yml).
-
-- Keep the elements in the pipeline.
-Feel free to try other compilers or static analysis tools.
-When you change something, make sure that even warnings will fail the build -
-as it does now.
-
-- Cyclomatic Complexity limit is currently set as 3.
-This is the recommended limit for the exercise.
-You may raise it up to 5 with a valid scenario where 3 was too restrictive.
-
-- Enable [CodeScene](https://codescene.io) at the start of your development itself.
-
-- Choose the naming and file-organization so that the code speaks its intent
-(preferably, _without_ using comments)
