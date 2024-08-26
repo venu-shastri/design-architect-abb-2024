@@ -32,9 +32,6 @@ More than 6 hours of continuous operation requires attention.
 |0x01|Controller board in the machine is not ok|
 |0x02|Configuration data in the machine is corrupted|
 
-Assume that the above data is monitored and passed-on to your program.
-You can choose to take the inputs as function calls to your program, or as events.
-
 ## Expected outputs
 
 The Solution needs to indicate if there is a need for attention.
